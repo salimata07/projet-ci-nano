@@ -36,6 +36,12 @@ public class CalculatorTest {
         assertEquals(2.5, calculatrice.division(5, 2), 0.001);
         assertEquals(3.0, calculatrice.division(9, 3), 0.001);
     }
+    @Test
+void testNouvelleFonction() {
+    assertEquals(10, calculatrice.multiplication(2, 5));
+    assertEquals(-10, calculatrice.multiplication(2, -5));
+}
+
 
     @Test
     void testDivisionParZero() {
